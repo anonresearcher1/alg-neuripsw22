@@ -23,7 +23,7 @@ The descriptions of parameters are as follows:
 | momentum     | The momentum for the optimizer. |
 | model        | Network architecture. Options: `TODO` |
 | dataset      | The dataset for training and testing. Options are discussed above. |
-| partition    | How datasets are partitioned. Options: `homo`, `noniid-labeldir`, `noniid-#label1` (or 2, 3, ..., which means the fixed number of labels each party owns). |
+| partition    | How datasets are partitioned. Options: `sc_niid_dir`, `sc_niid2`, `sc_old_niid_dir`, `sc_old_niid2`. |
 | datadir      | The path of datasets. |
 | logdir       | The path to store logs. |
 | log_filename | The folder name for multiple runs. E.g., with `ntrials=3` and `log_filename=$trial`, the logs of 3 runs will be located in 3 folders named `1`, `2`, and `3`. |
