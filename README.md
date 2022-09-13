@@ -38,6 +38,3 @@ We have also added the Mix-4 codes and scripts for each algorithm under the `mix
 
 ### Angle Measure Demo
 We have included a jupyter notebook file here which shows how angle measure works on CIFAR-10 dataset. 
-
-### Contact 
-If you had any questions, please feel free to contact me at mmorafah@eng.ucsd.edu
